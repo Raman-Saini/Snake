@@ -56,7 +56,7 @@ public class SnakeGame extends Applet implements Runnable, KeyListener {
             }
             this.repaint();
             try {
-                Thread.sleep(40);
+                Thread.sleep(30);
             }
             catch (InterruptedException e) {
                 e.printStackTrace();
